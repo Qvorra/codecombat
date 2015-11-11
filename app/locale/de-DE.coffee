@@ -81,14 +81,14 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     campaign_multiplayer: "Mehrspieler-Abenteuer"
     campaign_multiplayer_description: "... in der Du Kopf-an-Kopf gegen andere Spieler programmierst."
     campaign_old_multiplayer: "Ältere Mehrspieler-Abenteuer"
-#    campaign_old_multiplayer_description: "Relics of a more civilized age. No simulations are run for these older, hero-less multiplayer arenas."
+   campaign_old_multiplayer_description: "Überbleibsel eines zivilisierteren Zeitalters. Für diese älteren Multiplayer-Arenen werden keine Simulationen gestartet." # {change}
 
   share_progress_modal:
-    blurb: "Du machst dich gut! Sag deinen Eltern wie viel du mit CodeCombat gelernt hast." # {change}
-    email_invalid: "Diese Email-Adresse ist leider ungültig."
-    form_blurb: "Schreibe hier ihre Emailadresse rein und wir werden es ihnen zeigen."
-    form_label: "Email-Adresse"
-    placeholder: "Email-Adresse"
+    blurb: "Du machst dich gut! Sag deinen Eltern, wie viel du mit CodeCombat gelernt hast." # {change}
+    email_invalid: "Diese E-Mail-Adresse ist leider ungültig." # {change}
+    form_blurb: "Schreibe hier ihre E-Mail-Adresse rein und wir werden es ihnen zeigen." # {change}
+    form_label: "E-Mail-Adresse" # {change}
+    placeholder: "E-Mail-Adresse" # {change}
     title: "Gute Arbeit, Lehrling"
 
   login:
@@ -97,7 +97,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     logging_in: "Logge dich ein"
     log_out: "Ausloggen"
     forgot_password: "Passwort vergessen?"
-    authenticate_gplus: "Autenthifizierung mit Google+"
+    authenticate_gplus: "Authentifizierung mit Google+" # {change}
     load_profile: "Lade Google+ Profil"
     finishing: "Fertigstellen"
     sign_in_with_facebook: "Melde dich mit Facebook an"
@@ -105,12 +105,12 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     signup_switch: "Willst du einen Account erstellen?"
 
   signup:
-    email_announcements: "Erhalte Benachrichtigungen per Email"
+    email_announcements: "Erhalte Benachrichtigungen per E-Mail" # {change}
     creating: "Erzeuge Account..."
     sign_up: "Neuen Account anlegen"
     log_in: "mit Passwort einloggen"
-    social_signup: "oder, du registrierst dich über Facebook oder G+."
-    required: "Du musst dich vorher einloggen diesen Dienst zu nutzen"
+    social_signup: "oder du registrierst dich über Facebook oder G+." # {change}
+    required: "Du musst dich vorher einloggen, um diesen Dienst zu nutzen" # {change}
     login_switch: "Hast du schon einen Account?"
 
   recover:
@@ -257,8 +257,8 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     victory_experience_gained: "Gewonnene XP"
     victory_gems_gained: "Gewonnene Edelsteine"
     victory_new_item: "Neuen Gegenstand gewonnen"
-#    victory_viking_code_school: "Holy smokes, that was a hard level you just beat! If you aren't already a software developer, you should be. You just got fast-tracked for acceptance with Viking Code School, where you can take your skills to the next level and become a professional web developer in 14 weeks."
-#    victory_become_a_viking: "Become a Viking"
+    victory_viking_code_school: "Heiliger Bimbam, du hast gerade einen echt schwierigen Level abgeschlossen! Wenn du nicht bereits ein Softwareentwickler bist, solltest du einer werden! Du hast soeben für die Aufnahme in der Viking Code School qualifiziert, wo du deine Fähigkeiten weiter verbessern kannst - und innerhalb von 14 Wochen ein professioneller Webentwickler werden kannst." # {change}
+    victory_become_a_viking: "Werde ein Wikinger!"
 #    victory_bloc: "Great work! Your skills are improving, and someone's taking notice. If you've considered becoming a software developer, this may be your lucky day. Bloc is an online bootcamp that pairs you 1-on-1 with an expert mentor who will help train you into a professional developer! By beating A Mayhem of Munchkins, you're now eligible for a $500 price reduction with the code: CCRULES"
 #    victory_bloc_cta: "Meet your mentor – learn about Bloc"
     guide_title: "Anleitung"
@@ -298,7 +298,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     tip_scrub_shortcut: "Spule vor und zurück mit Strg+[ und Strg+]" # {change}
     tip_guide_exists: "Klicke auf die Anleitung am oberen Ende der Seite für nützliche Informationen."
     tip_open_source: "CodeCombat ist 100% quelloffen!"
-#    tip_tell_friends: "Enjoying CodeCombat? Tell your friends about us!"
+    tip_tell_friends: "Dir gefällt CodeCombat? Erzähl deinen Freunden davon!" # {change}
     tip_beta_launch: "CodeCombat startete seine Beta im Oktober 2013."
     tip_think_solution: "Denke über die Lösung nach, nicht über das Problem."
     tip_theory_practice: "In der Theorie gibt es keinen Unterschied zwischen Theorie und Praxis. In der Praxis schon. - Yogi Berra"
@@ -410,10 +410,10 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     feature4: "<strong>3500 Bonusedelsteine</strong> jeden Monat!"
     feature5: "Videoanleitungen"
     feature6: "Premium Emailsupport"
-#    feature7: "Private <strong>Clans</strong>"
+    feature7: "Private <strong>Clans</strong>" # {change}
     free: "Kostenlos"
     month: "Monat"
-#    must_be_logged: "You must be logged in first. Please create an account or log in from the menu above."
+    must_be_logged: "Du musst dich zuerst einloggen. Bitte erstelle einen Account oder log dich über das obige Menü ein." # {change}
     subscribe_title: "Abonnieren"
     unsubscribe: "Abmelden"
     confirm_unsubscribe: "Abmeldung bestätigen"
@@ -786,7 +786,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     article_editor_prefix: "Hast du einen Fehler in unseren Dokus gefunden? Willst du Anleitungen für deine Kreationen erstellen? Schau dir den"
     article_editor_suffix: "und hilf CodeCombat Spielern, das meiste aus ihrer Spielzeit herauszuholen."
     find_us: "Finde uns auf diesen Seiten"
-#    social_github: "Check out all our code on GitHub"
+    social_github: "Hol dir unseren kompletten Code von GitHub" # {change}
     social_blog: "Lese den CodeCombat Blog auf Sett"
     social_discource: "Schließe dich den Diskussionen in unserem Discourse Forum an"
     social_facebook: "Like CodeCombat auf Facebook"
@@ -1131,9 +1131,9 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     simulation_explanation: "Durch das Simulieren von Spielen kannst du deine Spiele schneller rangiert bekommen!"
 #    simulation_explanation_leagues: "You will mainly help simulate games for allied players in your clans and courses."
     simulate_games: "Simuliere Spiele!"
-    games_simulated_by: "Spiele die durch dich simuliert worden:"
-    games_simulated_for: "Spiele die für dich simuliert worden:"
-#    games_in_queue: "Games currently in the queue:"
+    games_simulated_by: "Spiele, die durch dich simuliert wurden:" # {change}
+    games_simulated_for: "Spiele, die für dich simuliert wurden:" # {change}
+    games_in_queue: "Spiele in der Warteschleife:" # {change}
     games_simulated: "simulierte Spiele"
     games_played: "gespielte Spiele"
     ratio: "Ratio"
@@ -1170,8 +1170,8 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     fight: "Kämpft!"
     watch_victory: "Schau dir deinen Sieg an"
     defeat_the: "Besiege den"
-#    watch_battle: "Watch the battle"
-#    tournament_started: ", started"
+    watch_battle: "Beobachte den Kampf"
+    tournament_started: ", gestartet"
     tournament_ends: "Turnier endet"
     tournament_ended: "Turnier beendet"
     tournament_rules: "Turnier-Regeln"
@@ -1182,12 +1182,12 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     tournament_blurb_blog: "auf unserem Blog an"
     rules: "Regeln"
     winners: "Gewinner"
-#    league: "League"
-#    red_ai: "Red AI" # "Red AI Wins", at end of multiplayer match playback
-#    blue_ai: "Blue AI"
-#    wins: "Wins" # At end of multiplayer match playback
-#    humans: "Red" # Ladder page display team name
-#    ogres: "Blue"
+    league: "Liga" # {change}
+    red_ai: "Rote KI" # "Red AI Wins", at end of multiplayer match playback  {change}
+    blue_ai: "Blaue KI" # {change}
+    wins: "gewinnt" # At end of multiplayer match playback {change}
+    humans: "Rot" # Ladder page display team name {change}
+    ogres: "Blau" # {change}
 
   user:
     stats: "Statistiken"
@@ -1203,7 +1203,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
     no_achievements: "Noch keine Erfolge verdient."
     favorite_prefix: "Lieblingssprache ist "
     favorite_postfix: "."
-#    not_member_of_clans: "Not a member of any clans yet."
+    not_member_of_clans: "Noch keinem Clan angeschlossen." # {change}
 
   achievements:
     last_earned: "Zuletzt erhalten"
@@ -1370,7 +1370,7 @@ module.exports = nativeDescription: "Deutsch (Deutschland)", englishDescription:
   delta:
     added: "hinzugefügt"
     modified: "modifiziert"
-#    not_modified: "Not Modified"
+    not_modified: "Nicht geändert" # {change}
     deleted: "gelöscht"
     moved_index: "Verschobener Index"
     text_diff: "Text Diff"
